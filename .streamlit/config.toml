@@ -1,0 +1,13 @@
+[server]
+# Match utils/cv.py MAX_FILE_SIZE_MB - keeps very large uploads out
+# before they even reach the app.
+maxUploadSize = 5
+
+[theme]
+base = "dark"
+primaryColor = "#C792FF"
+backgroundColor = "#090819"
+secondaryBackgroundColor = "#17152F"
+textColor = "#F7F3FF"
+
+font = "sans serif"

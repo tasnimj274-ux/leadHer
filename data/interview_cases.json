@@ -1,0 +1,114 @@
+{
+  "data_analytics": {
+    "title": "Mobile Financial Services growth",
+    "context": "Bangladesh Bank publishes monthly data on Mobile Financial Services (MFS) platforms such as bKash, Nagad and Rocket.",
+    "data_label": "MFS accounts and transaction volume, January 2024 vs. January 2025",
+    "data_points": [
+      "Registered MFS accounts: 219.12 million (Jan 2024) -> 239.30 million (Jan 2025), +9.21%",
+      "Monthly transaction volume: Tk 1.30 trillion (Jan 2024) -> Tk 1.72 trillion (Jan 2025), +32.56%",
+      "Accounts grew about 4x slower than transaction value grew, in percentage terms"
+    ],
+    "prompt": "Accounts grew 9%, but transaction value grew 33%. What does this gap suggest, what would you investigate next, and what would you tell a manager who only saw the account-growth number?",
+    "source_name": "Bangladesh Bank data, reported by The Financial Express",
+    "source_url": "https://thefinancialexpress.com.bd/economy/bangladesh-mfs-accounts-surge-by-20-million-in-a-year-transactions-up-32pc",
+    "source_date": "2025-02"
+  },
+  "business_analysis": {
+    "title": "Export concentration in ready-made garments",
+    "context": "Bangladesh's Export Promotion Bureau (EPB) tracks the country's export earnings by product category.",
+    "data_label": "Export mix, July-December (first half of FY2024-25)",
+    "data_points": [
+      "Total exports: US$24.53 billion",
+      "Ready-made garment (RMG) exports: US$19.89 billion (about 81% of total exports)",
+      "RMG exports grew 13.28% year-on-year in the same period"
+    ],
+    "prompt": "One category makes up roughly 81% of total exports. As a business analyst asked to assess this, what risk does that concentration create, what would you investigate to check if it's a problem, and what would you recommend?",
+    "source_name": "Export Promotion Bureau (EPB) data, reported by Apparel Resources",
+    "source_url": "https://apparelresources.com/business-news/trade/bangladeshs-apparel-exports-surpass-us-19-billion-amidst-political-turmoil/",
+    "source_date": "2025-01"
+  },
+  "marketing": {
+    "title": "Internet subscriber growth, 2015-2023",
+    "context": "The Bangladesh Telecommunication Regulatory Commission (BTRC) publishes subscriber counts that marketers use to size the online audience.",
+    "data_label": "Internet subscribers, December 2015 vs. December 2023",
+    "data_points": [
+      "Total internet subscribers: 54.12 million (Dec 2015) -> 131 million (Dec 2023)",
+      "Mobile internet users made up 118.49 million of the 131 million total in 2023",
+      "Broadband (fixed-line) users made up 12.88 million of the 131 million total in 2023"
+    ],
+    "prompt": "The online audience more than doubled in 8 years, and it is overwhelmingly mobile rather than broadband. What does that mean for how you would plan a digital campaign, and what would you check before assuming this pattern applies to your specific target audience?",
+    "source_name": "Bangladesh Telecommunication Regulatory Commission (BTRC), reported by The Financial Express",
+    "source_url": "https://thefinancialexpress.com.bd/home/internet-users-in-bangladesh-reach-131m-as-of-2023",
+    "source_date": "2024-01"
+  },
+  "finance": {
+    "title": "Remittance inflow record",
+    "context": "Bangladesh Bank tracks monthly remittances sent home by expatriate workers, an important source of foreign currency.",
+    "data_label": "Annual remittance inflow, FY2023-24 vs. FY2024-25",
+    "data_points": [
+      "FY2023-24 total remittances: US$23.91 billion",
+      "FY2024-25 total remittances: US$30.32 billion (+26.8% year-on-year, a record)",
+      "June 2025 alone: US$2.81 billion, up 11% from June 2024"
+    ],
+    "prompt": "Remittances jumped by nearly 27% in one year to a record high. As a finance analyst, what would you want to know before treating this as a stable trend, and how might this figure be used (or misused) in a financial forecast?",
+    "source_name": "Bangladesh Bank data, reported by UNB",
+    "source_url": "https://unb.com.bd/category/Business/remittance-hits-record-3032-billion-in-fy2024-25/163231",
+    "source_date": "2025-07"
+  },
+  "hr": {
+    "title": "Graduate unemployment vs. overall unemployment",
+    "context": "The Bangladesh Bureau of Statistics (BBS) runs an annual Labour Force Survey covering employment across the country.",
+    "data_label": "Unemployment rate, 2024 Labour Force Survey",
+    "data_points": [
+      "National unemployment rate: 3.66% (2024)",
+      "Unemployment rate among people with a bachelor's degree: 13.5% (2024), up from 13.1% (2023)",
+      "About 885,000 bachelor's-degree holders were unemployed in 2024"
+    ],
+    "prompt": "University graduates are unemployed at nearly 4 times the national rate. As an HR associate, what does this suggest about the gap between what graduates offer and what employers need, and what would you look into before drawing conclusions?",
+    "source_name": "Bangladesh Bureau of Statistics (BBS), Labour Force Survey 2024, reported by The Financial Express",
+    "source_url": "https://thefinancialexpress.com.bd/youth-and-entrepreneurship/youth-unemployment-in-bangladesh-what-holds-us-back",
+    "source_date": "2025"
+  },
+  "technology": {
+    "title": "A subscriber base that fell, then recovered",
+    "context": "BTRC publishes monthly counts of active mobile and internet subscribers, which are also a rough proxy for a tech product's active-user base.",
+    "data_label": "Internet subscribers, monthly, January-May 2025",
+    "data_points": [
+      "Internet subscribers fell for 8 straight months before March 2025",
+      "March 2025: rebounded with about 750,000 new users after only 10,000 added in February",
+      "January-May 2025: subscribers rose from 128.9 million to 134.1 million (+5.08 million)"
+    ],
+    "prompt": "A user base declined for 8 months straight, then suddenly recovered. If this were your product's active-user metric, what would you investigate to explain both the decline and the recovery, and what would you check before reporting 'we fixed churn' to your manager?",
+    "source_name": "Bangladesh Telecommunication Regulatory Commission (BTRC) data, reported by MeaTechWatch and Prothom Alo",
+    "source_url": "https://en.prothomalo.com/amp/story/sports/football/bqcsv75rbv",
+    "source_date": "2025-06"
+  },
+  "supply_chain": {
+    "title": "Knitwear vs. woven garment export growth",
+    "context": "The Export Promotion Bureau (EPB) breaks down Bangladesh's largest export sector, ready-made garments, into its two main product lines.",
+    "data_label": "RMG exports by segment, FY2024-25 (July-June)",
+    "data_points": [
+      "Total RMG exports: US$39.35 billion (+8.84% year-on-year)",
+      "Knitwear exports: US$21.16 billion (+9.73% year-on-year)",
+      "Woven garment exports: US$18.19 billion (+7.82% year-on-year)"
+    ],
+    "prompt": "Knitwear grew faster than woven garments this year. As an operations/logistics coordinator, how might that shift affect sourcing, capacity planning or supplier relationships, and what would you want to check before recommending a change in resource allocation?",
+    "source_name": "Export Promotion Bureau (EPB) data, reported by Apparel Resources",
+    "source_url": "https://apparelresources.com/business-news/trade/bangladesh-rmg-exports-total-us-2-79-billion-june-2025/",
+    "source_date": "2025-07"
+  },
+  "general": {
+    "title": "How many people are working?",
+    "context": "The Bangladesh Bureau of Statistics (BBS) runs a Quarterly Labour Force Survey covering the whole working-age population.",
+    "data_label": "Labour force snapshot, Q1 2024",
+    "data_points": [
+      "Total population surveyed: 172.94 million",
+      "Labour force (working or looking for work): 73.75 million",
+      "Employed: 71.16 million; unemployed: 2.59 million (about 3.5%)"
+    ],
+    "prompt": "Out of about 173 million people, only about 74 million are in the labour force at all. What questions would you ask to understand who the other ~99 million are (for example age, education, or caregiving roles), and why does that distinction matter when people discuss 'the unemployment rate'?",
+    "source_name": "Bangladesh Bureau of Statistics (BBS), Quarterly Labour Force Survey, reported by Dhaka Tribune",
+    "source_url": "https://www.dhakatribune.com/amp/business/345894/bangladesh-s-young-workforce-declines-in-q1-24",
+    "source_date": "2024-05"
+  }
+}

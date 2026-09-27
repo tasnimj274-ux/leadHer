@@ -1,0 +1,850 @@
+{
+  "data_analytics": [
+    {
+      "id": "da1",
+      "question": "A sales table has duplicate rows for the same order. Which SQL clause removes duplicates from a SELECT result?",
+      "competency": "SQL",
+      "options": [
+        "GROUP BY",
+        "DISTINCT",
+        "ORDER BY",
+        "HAVING"
+      ],
+      "correct_answer": "DISTINCT",
+      "explanation": "DISTINCT removes duplicate rows from the returned result set."
+    },
+    {
+      "id": "da2",
+      "question": "You want total sales per region from an orders table. Which SQL keyword pairs with SUM() to get one total per region?",
+      "competency": "SQL",
+      "options": [
+        "WHERE",
+        "GROUP BY",
+        "LIMIT",
+        "AS"
+      ],
+      "correct_answer": "GROUP BY",
+      "explanation": "GROUP BY groups rows so an aggregate like SUM() is calculated per group (per region)."
+    },
+    {
+      "id": "da3",
+      "question": "In Excel, which function looks up a value in one column and returns a matching value from another column?",
+      "competency": "Excel",
+      "options": [
+        "SUM",
+        "VLOOKUP",
+        "COUNTIF",
+        "CONCAT"
+      ],
+      "correct_answer": "VLOOKUP",
+      "explanation": "VLOOKUP (or the newer XLOOKUP) searches a column and returns a related value from another column."
+    },
+    {
+      "id": "da4",
+      "question": "A column of survey scores has several blank cells. Before analyzing averages, what should you do first?",
+      "competency": "Excel",
+      "options": [
+        "Ignore it, blanks don't matter",
+        "Decide how to handle the missing values (e.g. exclude or flag them)",
+        "Delete the whole spreadsheet",
+        "Replace all blanks with 0 automatically without checking"
+      ],
+      "correct_answer": "Decide how to handle the missing values (e.g. exclude or flag them)",
+      "explanation": "Missing data should be handled deliberately - blindly filling with 0 or ignoring it can distort the analysis."
+    },
+    {
+      "id": "da5",
+      "question": "The average (mean) delivery time is 10 days, but the median is 4 days. What does this suggest?",
+      "competency": "Statistics",
+      "options": [
+        "The data is perfectly symmetric",
+        "A few very large values (outliers) are pulling the mean up",
+        "The data has no variation",
+        "The median is calculated incorrectly"
+      ],
+      "correct_answer": "A few very large values (outliers) are pulling the mean up",
+      "explanation": "When the mean is much higher than the median, a small number of large outliers are usually skewing the average."
+    },
+    {
+      "id": "da6",
+      "question": "A report shows website visits went up 10% but sales went down 5% in the same month. What's the best next step?",
+      "competency": "Business Reasoning",
+      "options": [
+        "Assume the report is wrong",
+        "Investigate other factors, like conversion rate or pricing changes",
+        "Immediately increase the marketing budget",
+        "Ignore it since visits went up"
+      ],
+      "correct_answer": "Investigate other factors, like conversion rate or pricing changes",
+      "explanation": "Good analysis looks beyond one metric - visits and sales moving in different directions points to a conversion problem worth investigating."
+    },
+    {
+      "id": "da7",
+      "question": "You need to show how a company's revenue changed over 12 months. Which chart type communicates this best?",
+      "competency": "Visualization",
+      "options": [
+        "Pie chart",
+        "Line chart",
+        "Scatter plot with no axes labeled",
+        "A single number with no context"
+      ],
+      "correct_answer": "Line chart",
+      "explanation": "Line charts are well suited to showing a trend over a continuous time period like months."
+    },
+    {
+      "id": "da8",
+      "question": "A bar chart compares 3 products, but one bar's axis starts at 50 instead of 0. What's the main risk?",
+      "competency": "Visualization",
+      "options": [
+        "No risk, it's more precise",
+        "It can visually exaggerate the difference between the bars",
+        "It makes the chart load faster",
+        "It's required by best practice"
+      ],
+      "correct_answer": "It can visually exaggerate the difference between the bars",
+      "explanation": "Truncating the y-axis can make small differences look much larger than they really are, misleading the viewer."
+    }
+  ],
+  "business_analysis": [
+    {
+      "id": "ba1",
+      "question": "A stakeholder says 'the system should be fast.' What's the best next step as a business analyst?",
+      "competency": "Requirements Thinking",
+      "options": [
+        "Accept it as written and move on",
+        "Ask what 'fast' means in measurable terms (e.g. load time)",
+        "Tell them it's already fast",
+        "Skip this requirement"
+      ],
+      "correct_answer": "Ask what 'fast' means in measurable terms (e.g. load time)",
+      "explanation": "Vague requirements need to be turned into specific, testable criteria before they're useful."
+    },
+    {
+      "id": "ba2",
+      "question": "Which of these is the clearest, well-written user requirement?",
+      "competency": "Requirements Thinking",
+      "options": [
+        "The app should be good",
+        "The user should be able to reset their password via email within 2 minutes",
+        "Make it modern",
+        "It should work on most things"
+      ],
+      "correct_answer": "The user should be able to reset their password via email within 2 minutes",
+      "explanation": "A good requirement is specific, testable, and describes a clear user outcome."
+    },
+    {
+      "id": "ba3",
+      "question": "You're mapping a manual approval process that takes 5 days. What's the first step in process analysis?",
+      "competency": "Process Analysis",
+      "options": [
+        "Redesign it immediately",
+        "Document the current steps and where time is actually spent",
+        "Blame the approvers",
+        "Buy new software right away"
+      ],
+      "correct_answer": "Document the current steps and where time is actually spent",
+      "explanation": "You need to understand the current ('as-is') process clearly before you can improve it."
+    },
+    {
+      "id": "ba4",
+      "question": "Two departments disagree on what a new feature should do. What's the best approach?",
+      "competency": "Stakeholder Communication",
+      "options": [
+        "Pick whichever department asked first",
+        "Facilitate a discussion to understand both needs and find common ground",
+        "Avoid the conflict entirely",
+        "Let the developers decide"
+      ],
+      "correct_answer": "Facilitate a discussion to understand both needs and find common ground",
+      "explanation": "Part of the BA role is aligning stakeholders with different needs toward a shared solution."
+    },
+    {
+      "id": "ba5",
+      "question": "A project is behind schedule and stakeholders are frustrated. Which response shows the strongest communication skill?",
+      "competency": "Stakeholder Communication",
+      "options": [
+        "Avoid updating them until it's finished",
+        "Give a clear, honest status update with a revised plan",
+        "Blame the development team publicly",
+        "Promise an unrealistic new date to calm them down"
+      ],
+      "correct_answer": "Give a clear, honest status update with a revised plan",
+      "explanation": "Transparent, proactive communication builds trust even when the news isn't perfect."
+    },
+    {
+      "id": "ba6",
+      "question": "Customer complaints are rising, but no single team owns the root cause. What should you check first?",
+      "competency": "Business Reasoning",
+      "options": [
+        "Ignore it since it's not one team's fault",
+        "Look at the end-to-end process to find where it's breaking down",
+        "Assume it's a marketing problem",
+        "Wait for it to resolve itself"
+      ],
+      "correct_answer": "Look at the end-to-end process to find where it's breaking down",
+      "explanation": "Cross-team problems often hide in the handoffs between teams, so mapping the full process reveals the real cause."
+    },
+    {
+      "id": "ba7",
+      "question": "Support ticket data shows 40% of complaints mention 'checkout errors.' What does this data suggest you prioritize?",
+      "competency": "Data Interpretation",
+      "options": [
+        "Redesign the homepage",
+        "Investigate and fix checkout issues first",
+        "Ignore it, it's a small sample",
+        "Add more support staff only"
+      ],
+      "correct_answer": "Investigate and fix checkout issues first",
+      "explanation": "When one issue dominates the data, it's usually the highest-impact place to start."
+    },
+    {
+      "id": "ba8",
+      "question": "A new process removes 2 manual approval steps but adds 1 automated check. Is this likely an improvement?",
+      "competency": "Problem Solving",
+      "options": [
+        "No, because steps changed",
+        "Likely yes, if it reduces delay and manual error without losing needed control",
+        "Impossible to say without a survey",
+        "No, more steps is always worse"
+      ],
+      "correct_answer": "Likely yes, if it reduces delay and manual error without losing needed control",
+      "explanation": "Process improvement isn't just about step count - it's about balancing speed, accuracy and necessary control."
+    }
+  ],
+  "marketing": [
+    {
+      "id": "mk1",
+      "question": "A skincare brand wants to reach university students. What's the best first step?",
+      "competency": "Customer Insight",
+      "options": [
+        "Guess what they like",
+        "Research the target audience's habits, needs and channels",
+        "Copy a competitor exactly",
+        "Launch ads on every platform at once"
+      ],
+      "correct_answer": "Research the target audience's habits, needs and channels",
+      "explanation": "Good marketing starts with understanding the audience before choosing messages or channels."
+    },
+    {
+      "id": "mk2",
+      "question": "Two brands sell similar coffee, but one is known as 'the eco-friendly choice.' This is an example of:",
+      "competency": "Positioning",
+      "options": [
+        "Pricing strategy",
+        "Positioning - owning a distinct place in the customer's mind",
+        "Product defect",
+        "Random branding with no strategy"
+      ],
+      "correct_answer": "Positioning - owning a distinct place in the customer's mind",
+      "explanation": "Positioning is about how a brand is perceived relative to competitors on a meaningful dimension."
+    },
+    {
+      "id": "mk3",
+      "question": "A campaign got high impressions but very few clicks. What does this most likely suggest?",
+      "competency": "Campaign Reasoning",
+      "options": [
+        "The budget was too high",
+        "The audience or creative/message may not be resonating enough to act",
+        "Impressions don't matter at all",
+        "The campaign is perfect as is"
+      ],
+      "correct_answer": "The audience or creative/message may not be resonating enough to act",
+      "explanation": "High reach with low engagement usually points to a mismatch between the message and the audience."
+    },
+    {
+      "id": "mk4",
+      "question": "An email campaign has a 2% click-through rate, and the industry average is 3%. What should you check first?",
+      "competency": "Basic Analytics",
+      "options": [
+        "Nothing, 2% is fine",
+        "Subject line, targeting, and content relevance",
+        "Only the send time",
+        "Cancel all future emails"
+      ],
+      "correct_answer": "Subject line, targeting, and content relevance",
+      "explanation": "Underperforming metrics usually have a few likely causes worth investigating systematically."
+    },
+    {
+      "id": "mk5",
+      "question": "You need to explain a drop in social engagement to a non-marketing manager. What's the best approach?",
+      "competency": "Communication",
+      "options": [
+        "Use only technical jargon",
+        "Explain it in plain language with the key numbers and likely cause",
+        "Avoid explaining it",
+        "Blame the algorithm without evidence"
+      ],
+      "correct_answer": "Explain it in plain language with the key numbers and likely cause",
+      "explanation": "Clear communication translates data into a story stakeholders outside marketing can act on."
+    },
+    {
+      "id": "mk6",
+      "question": "A product launch is delayed by 2 weeks right before a planned campaign. What's the best move?",
+      "competency": "Problem Solving",
+      "options": [
+        "Launch the campaign anyway as planned",
+        "Adjust the campaign timeline to match the new launch date",
+        "Cancel the campaign completely",
+        "Ignore the delay"
+      ],
+      "correct_answer": "Adjust the campaign timeline to match the new launch date",
+      "explanation": "Marketing plans need to stay flexible and aligned with real product timelines."
+    },
+    {
+      "id": "mk7",
+      "question": "Which metric best measures how many people who saw an ad actually made a purchase?",
+      "competency": "Basic Analytics",
+      "options": [
+        "Impressions",
+        "Conversion rate",
+        "Follower count",
+        "Brand awareness score"
+      ],
+      "correct_answer": "Conversion rate",
+      "explanation": "Conversion rate directly measures the share of viewers who completed the desired action."
+    },
+    {
+      "id": "mk8",
+      "question": "A brand wants loyal customers to feel valued. Which channel fits a personal, relationship-building message best?",
+      "competency": "Customer Insight",
+      "options": [
+        "A generic billboard",
+        "A personalized email or loyalty program message",
+        "A random pop-up ad",
+        "A one-time press release"
+      ],
+      "correct_answer": "A personalized email or loyalty program message",
+      "explanation": "Relationship-focused goals are usually best served by direct, personalized channels rather than mass broadcast ones."
+    }
+  ],
+  "finance": [
+    {
+      "id": "fi1",
+      "question": "A company's current assets are $50,000 and current liabilities are $25,000. What is the current ratio?",
+      "competency": "Ratios",
+      "options": [
+        "0.5",
+        "2.0",
+        "25,000",
+        "1.5"
+      ],
+      "correct_answer": "2.0",
+      "explanation": "Current ratio = current assets / current liabilities = 50,000 / 25,000 = 2.0."
+    },
+    {
+      "id": "fi2",
+      "question": "Which financial statement shows a company's revenues and expenses over a period of time?",
+      "competency": "Accounting Concepts",
+      "options": [
+        "Balance sheet",
+        "Income statement",
+        "Cash flow statement",
+        "Statement of equity"
+      ],
+      "correct_answer": "Income statement",
+      "explanation": "The income statement reports revenue, expenses and profit over a specific period."
+    },
+    {
+      "id": "fi3",
+      "question": "A company's assets are $100,000 and liabilities are $40,000. What is its equity?",
+      "competency": "Accounting Concepts",
+      "options": [
+        "$140,000",
+        "$60,000",
+        "$40,000",
+        "$100,000"
+      ],
+      "correct_answer": "$60,000",
+      "explanation": "Equity = Assets - Liabilities = 100,000 - 40,000 = 60,000."
+    },
+    {
+      "id": "fi4",
+      "question": "If revenue grows from $80,000 to $92,000, what is the percentage growth?",
+      "competency": "Numerical Reasoning",
+      "options": [
+        "12%",
+        "15%",
+        "8%",
+        "20%"
+      ],
+      "correct_answer": "15%",
+      "explanation": "(92,000 - 80,000) / 80,000 = 12,000 / 80,000 = 15%."
+    },
+    {
+      "id": "fi5",
+      "question": "A project returns $10,000 next year. Why might that be worth less than $10,000 today?",
+      "competency": "Financial Reasoning",
+      "options": [
+        "Money never changes value",
+        "Time value of money - money today can be invested to earn more over time",
+        "Inflation always makes future money worth more",
+        "There's no reason, it's the same"
+      ],
+      "correct_answer": "Time value of money - money today can be invested to earn more over time",
+      "explanation": "A dollar today is generally worth more than a dollar in the future because it can be invested to grow."
+    },
+    {
+      "id": "fi6",
+      "question": "A company has high revenue but is running out of cash. What does this most likely indicate?",
+      "competency": "Financial Reasoning",
+      "options": [
+        "The company is definitely failing",
+        "A possible cash flow / timing issue despite reported profit",
+        "Revenue and cash are always the same thing",
+        "Nothing, this is normal and needs no attention"
+      ],
+      "correct_answer": "A possible cash flow / timing issue despite reported profit",
+      "explanation": "Profit on paper doesn't guarantee available cash - timing of receivables and payables matters."
+    },
+    {
+      "id": "fi7",
+      "question": "A new investment has potential high returns but very uncertain outcomes. What should be assessed alongside the return?",
+      "competency": "Risk Awareness",
+      "options": [
+        "Nothing else matters but the return",
+        "The level of risk and the investor's ability to tolerate it",
+        "Only the company's logo",
+        "The color of the report"
+      ],
+      "correct_answer": "The level of risk and the investor's ability to tolerate it",
+      "explanation": "Sound financial decisions weigh potential return against the risk involved, not return alone."
+    },
+    {
+      "id": "fi8",
+      "question": "A department's budget was $50,000 and it spent $56,000. What is this called?",
+      "competency": "Ratios",
+      "options": [
+        "Under budget by $6,000",
+        "Over budget by $6,000",
+        "On budget",
+        "A profit of $6,000"
+      ],
+      "correct_answer": "Over budget by $6,000",
+      "explanation": "Spending exceeded the allocated budget by 56,000 - 50,000 = 6,000."
+    }
+  ],
+  "hr": [
+    {
+      "id": "hr1",
+      "question": "A job posting gets very few applicants. What's a good first step to improve it?",
+      "competency": "Recruitment Concepts",
+      "options": [
+        "Lower the salary further",
+        "Review the job description for clarity, requirements and reach",
+        "Close the role immediately",
+        "Assume no one wants to work there"
+      ],
+      "correct_answer": "Review the job description for clarity, requirements and reach",
+      "explanation": "Weak response is often linked to an unclear posting, overly narrow requirements, or limited reach."
+    },
+    {
+      "id": "hr2",
+      "question": "During an interview, a candidate seems nervous and gives short answers. What's the best approach?",
+      "competency": "Employee Situations",
+      "options": [
+        "Rule them out immediately",
+        "Create a comfortable environment and ask follow-up questions",
+        "End the interview early",
+        "Assume they are unqualified"
+      ],
+      "correct_answer": "Create a comfortable environment and ask follow-up questions",
+      "explanation": "Nerves don't necessarily reflect ability - good interviewers help candidates show their real potential."
+    },
+    {
+      "id": "hr3",
+      "question": "An employee emails HR about a sensitive personal issue. What communication approach is most appropriate?",
+      "competency": "Communication",
+      "options": [
+        "Reply publicly in a group chat",
+        "Respond privately, promptly, and with empathy",
+        "Ignore the email",
+        "Forward it to the whole team"
+      ],
+      "correct_answer": "Respond privately, promptly, and with empathy",
+      "explanation": "Sensitive matters need private, timely, and empathetic handling to maintain trust."
+    },
+    {
+      "id": "hr4",
+      "question": "Two team members are in an ongoing disagreement affecting their work. What's the best first HR action?",
+      "competency": "Conflict Handling",
+      "options": [
+        "Ignore it and hope it resolves itself",
+        "Meet with each person, then facilitate a resolution conversation",
+        "Immediately recommend firing one person",
+        "Post about it publicly"
+      ],
+      "correct_answer": "Meet with each person, then facilitate a resolution conversation",
+      "explanation": "Understanding both perspectives first leads to a fairer and more effective resolution."
+    },
+    {
+      "id": "hr5",
+      "question": "A manager wants to reject a candidate based only on their name. What should HR do?",
+      "competency": "People Judgment",
+      "options": [
+        "Approve the rejection without question",
+        "Push back and ensure the decision is based on job-relevant criteria",
+        "Agree since managers are always right",
+        "Avoid the conversation"
+      ],
+      "correct_answer": "Push back and ensure the decision is based on job-relevant criteria",
+      "explanation": "HR plays a key role in ensuring hiring decisions are fair and based on relevant qualifications, not bias."
+    },
+    {
+      "id": "hr6",
+      "question": "What is the main purpose of an employee onboarding program?",
+      "competency": "Basic HR Understanding",
+      "options": [
+        "To test employees until they quit",
+        "To help new employees integrate, learn their role, and become productive",
+        "To reduce the number of new hires",
+        "It has no real purpose"
+      ],
+      "correct_answer": "To help new employees integrate, learn their role, and become productive",
+      "explanation": "Onboarding is designed to set new employees up for success and faster integration into the team."
+    },
+    {
+      "id": "hr7",
+      "question": "An employee consistently misses deadlines but was previously a strong performer. What's the best next step?",
+      "competency": "Employee Situations",
+      "options": [
+        "Fire them immediately",
+        "Have a private conversation to understand what changed",
+        "Ignore the pattern",
+        "Publicly call them out in a meeting"
+      ],
+      "correct_answer": "Have a private conversation to understand what changed",
+      "explanation": "A sudden change in performance often has an underlying cause worth understanding before acting."
+    },
+    {
+      "id": "hr8",
+      "question": "Which of these is most important when writing a job description for a competency-based role?",
+      "competency": "Recruitment Concepts",
+      "options": [
+        "Making it as vague as possible",
+        "Clearly listing the key responsibilities and required competencies",
+        "Copying a competitor's posting exactly",
+        "Leaving out the required skills"
+      ],
+      "correct_answer": "Clearly listing the key responsibilities and required competencies",
+      "explanation": "Clear, specific job descriptions attract better-matched candidates and set right expectations."
+    }
+  ],
+  "technology": [
+    {
+      "id": "te1",
+      "question": "What will this pseudocode print?\nx = 5\ny = 2\nprint(x % y)",
+      "competency": "Programming Logic",
+      "options": [
+        "2.5",
+        "1",
+        "10",
+        "0"
+      ],
+      "correct_answer": "1",
+      "explanation": "The % operator returns the remainder of division: 5 divided by 2 leaves a remainder of 1."
+    },
+    {
+      "id": "te2",
+      "question": "A loop is supposed to run 5 times but runs forever. What is the most likely cause?",
+      "competency": "Debugging",
+      "options": [
+        "The computer is broken",
+        "The loop's exit/update condition is never being met",
+        "Too much RAM",
+        "The code has too many comments"
+      ],
+      "correct_answer": "The loop's exit/update condition is never being met",
+      "explanation": "Infinite loops are usually caused by a condition or counter that never changes to satisfy the exit condition."
+    },
+    {
+      "id": "te3",
+      "question": "Which approach finds an item in a sorted list of 1,000,000 items fastest?",
+      "competency": "Algorithms / Problem Solving",
+      "options": [
+        "Checking every item one by one from the start",
+        "Binary search",
+        "Sorting the list again first",
+        "Randomly guessing"
+      ],
+      "correct_answer": "Binary search",
+      "explanation": "Binary search repeatedly halves the search space, making it far faster on sorted data than checking each item."
+    },
+    {
+      "id": "te4",
+      "question": "A function is supposed to return the sum of a list but returns None instead. What's the most likely bug?",
+      "competency": "Debugging",
+      "options": [
+        "The list is too short",
+        "The function is missing a return statement",
+        "The computer needs a restart",
+        "The variable names are too long"
+      ],
+      "correct_answer": "The function is missing a return statement",
+      "explanation": "A function without an explicit return statement returns None by default, even if it computes a value internally."
+    },
+    {
+      "id": "te5",
+      "question": "What does 'version control' (e.g. Git) primarily help a team do?",
+      "competency": "Basic Software Concepts",
+      "options": [
+        "Make coffee",
+        "Track changes to code and collaborate without overwriting each other's work",
+        "Automatically fix all bugs",
+        "Design the user interface"
+      ],
+      "correct_answer": "Track changes to code and collaborate without overwriting each other's work",
+      "explanation": "Version control systems track history and let multiple people work on the same codebase safely."
+    },
+    {
+      "id": "te6",
+      "question": "You need to store many key-value pairs, like a username mapped to an email. Which structure fits best?",
+      "competency": "Programming Logic",
+      "options": [
+        "A single integer",
+        "A dictionary / hash map",
+        "A single string",
+        "A boolean"
+      ],
+      "correct_answer": "A dictionary / hash map",
+      "explanation": "Dictionaries (hash maps) are designed to store and quickly look up key-value pairs."
+    },
+    {
+      "id": "te7",
+      "question": "A new feature works on the developer's laptop but fails after deployment. What's a good first debugging step?",
+      "competency": "Technical Reasoning",
+      "options": [
+        "Assume it's impossible to fix",
+        "Check for environment differences (config, dependencies, data)",
+        "Redeploy the exact same code repeatedly without changes",
+        "Blame the server without investigating"
+      ],
+      "correct_answer": "Check for environment differences (config, dependencies, data)",
+      "explanation": "'Works on my machine' bugs are usually caused by differences in environment, configuration, or data between setups."
+    },
+    {
+      "id": "te8",
+      "question": "What is the main purpose of writing automated tests for code?",
+      "competency": "Basic Software Concepts",
+      "options": [
+        "To make the code run slower on purpose",
+        "To catch bugs early and confirm the code behaves as expected",
+        "To replace the need for any documentation",
+        "Tests have no real purpose"
+      ],
+      "correct_answer": "To catch bugs early and confirm the code behaves as expected",
+      "explanation": "Automated tests verify that code works correctly now and continues to work as changes are made."
+    }
+  ],
+  "supply_chain": [
+    {
+      "id": "sc1",
+      "question": "A store keeps running out of a popular product. What's the most likely inventory issue?",
+      "competency": "Inventory",
+      "options": [
+        "Too much safety stock",
+        "Reorder point set too low for actual demand",
+        "Too many warehouses",
+        "Prices are too high"
+      ],
+      "correct_answer": "Reorder point set too low for actual demand",
+      "explanation": "Frequent stockouts usually mean the reorder point doesn't account for real demand and lead time."
+    },
+    {
+      "id": "sc2",
+      "question": "Which factor most directly affects how much safety stock a warehouse should hold?",
+      "competency": "Inventory",
+      "options": [
+        "The color of the packaging",
+        "Variability in demand and supplier lead time",
+        "The warehouse's paint color",
+        "The number of employees"
+      ],
+      "correct_answer": "Variability in demand and supplier lead time",
+      "explanation": "Safety stock exists to buffer against uncertainty in demand and how long suppliers take to deliver."
+    },
+    {
+      "id": "sc3",
+      "question": "A shipment route currently makes 3 unnecessary stops. What's the main logistics improvement opportunity?",
+      "competency": "Logistics",
+      "options": [
+        "Add even more stops",
+        "Optimize the route to reduce distance and delivery time",
+        "Switch to a slower vehicle",
+        "Ignore the inefficiency"
+      ],
+      "correct_answer": "Optimize the route to reduce distance and delivery time",
+      "explanation": "Route optimization reduces cost and delivery time by cutting unnecessary distance and stops."
+    },
+    {
+      "id": "sc4",
+      "question": "Sales for an umbrella brand spike every rainy season. What forecasting approach fits best?",
+      "competency": "Forecasting",
+      "options": [
+        "Ignore past patterns completely",
+        "Use historical seasonal data to predict demand peaks",
+        "Assume demand is always flat",
+        "Guess randomly each month"
+      ],
+      "correct_answer": "Use historical seasonal data to predict demand peaks",
+      "explanation": "Seasonal forecasting uses historical patterns to anticipate predictable demand swings."
+    },
+    {
+      "id": "sc5",
+      "question": "A factory's defect rate has been rising for 3 months. What's the best operations response?",
+      "competency": "Operations Reasoning",
+      "options": [
+        "Ignore it since some defects are normal",
+        "Investigate root causes and adjust the process",
+        "Immediately shut down the factory permanently",
+        "Increase production speed further"
+      ],
+      "correct_answer": "Investigate root causes and adjust the process",
+      "explanation": "A rising defect trend signals a process issue worth diagnosing before it gets worse."
+    },
+    {
+      "id": "sc6",
+      "question": "Which of these is an example of a process improvement using the 'reduce waste' principle?",
+      "competency": "Process Improvement",
+      "options": [
+        "Adding an unnecessary approval step",
+        "Eliminating a redundant quality check that adds no value",
+        "Increasing inventory with no plan to use it",
+        "Ignoring bottlenecks"
+      ],
+      "correct_answer": "Eliminating a redundant quality check that adds no value",
+      "explanation": "Lean principles focus on removing steps that don't add value to the final product or customer."
+    },
+    {
+      "id": "sc7",
+      "question": "A warehouse receives 1,200 units and ships out 950 in the same week. What is the net change in inventory?",
+      "competency": "Quantitative Reasoning",
+      "options": [
+        "+250",
+        "-250",
+        "+1,200",
+        "-950"
+      ],
+      "correct_answer": "+250",
+      "explanation": "Net change = units received - units shipped = 1,200 - 950 = +250."
+    },
+    {
+      "id": "sc8",
+      "question": "Which metric best measures how efficiently a warehouse turns over its inventory in a period?",
+      "competency": "Inventory",
+      "options": [
+        "Employee headcount",
+        "Inventory turnover ratio",
+        "Building size",
+        "Number of suppliers"
+      ],
+      "correct_answer": "Inventory turnover ratio",
+      "explanation": "Inventory turnover measures how many times inventory is sold and replaced over a period, reflecting efficiency."
+    }
+  ],
+  "general": [
+    {
+      "id": "ge1",
+      "question": "A colleague's message is unclear about a deadline. What's the best response?",
+      "competency": "Communication",
+      "options": [
+        "Guess and hope it's right",
+        "Ask a clarifying question to confirm the exact deadline",
+        "Ignore the message",
+        "Assume the worst-case date without checking"
+      ],
+      "correct_answer": "Ask a clarifying question to confirm the exact deadline",
+      "explanation": "Clear communication means confirming ambiguous details rather than guessing."
+    },
+    {
+      "id": "ge2",
+      "question": "A budget of $1,200 needs to be split evenly across 4 team activities. How much is allocated per activity?",
+      "competency": "Numerical Reasoning",
+      "options": [
+        "$400",
+        "$300",
+        "$250",
+        "$1,200"
+      ],
+      "correct_answer": "$300",
+      "explanation": "1,200 divided by 4 equals 300 per activity."
+    },
+    {
+      "id": "ge3",
+      "question": "A project is running late because of an unexpected obstacle. What's the best problem-solving approach?",
+      "competency": "Problem Solving",
+      "options": [
+        "Panic and stop working",
+        "Break the problem down and identify possible solutions",
+        "Blame someone else immediately",
+        "Wait without taking any action"
+      ],
+      "correct_answer": "Break the problem down and identify possible solutions",
+      "explanation": "Effective problem solving starts with understanding the issue and generating options, not reacting emotionally."
+    },
+    {
+      "id": "ge4",
+      "question": "A team member disagrees strongly with your approach in a meeting. What's the best response?",
+      "competency": "Situational Judgment",
+      "options": [
+        "Dismiss their opinion immediately",
+        "Listen to their reasoning and discuss the trade-offs calmly",
+        "Get defensive and argue loudly",
+        "Agree just to avoid conflict without discussion"
+      ],
+      "correct_answer": "Listen to their reasoning and discuss the trade-offs calmly",
+      "explanation": "Good judgment involves hearing other perspectives and reasoning through disagreements constructively."
+    },
+    {
+      "id": "ge5",
+      "question": "Your team of 5 needs to divide 20 tasks evenly. How many tasks does each person get?",
+      "competency": "Numerical Reasoning",
+      "options": [
+        "5",
+        "4",
+        "20",
+        "10"
+      ],
+      "correct_answer": "4",
+      "explanation": "20 tasks divided among 5 people equals 4 tasks each."
+    },
+    {
+      "id": "ge6",
+      "question": "A shared document has conflicting edits from two teammates. What shows the best teamwork?",
+      "competency": "Teamwork",
+      "options": [
+        "Deleting their edits without asking",
+        "Discussing the changes together to agree on a final version",
+        "Ignoring the conflict",
+        "Sending an angry message"
+      ],
+      "correct_answer": "Discussing the changes together to agree on a final version",
+      "explanation": "Strong teamwork involves resolving conflicting contributions collaboratively rather than unilaterally."
+    },
+    {
+      "id": "ge7",
+      "question": "You're asked to learn a new tool you've never used for a task due tomorrow. What's the best first step?",
+      "competency": "Digital Literacy",
+      "options": [
+        "Refuse the task",
+        "Look up a quick tutorial or guide and start with the basics",
+        "Wait for someone else to do it",
+        "Guess randomly without learning anything"
+      ],
+      "correct_answer": "Look up a quick tutorial or guide and start with the basics",
+      "explanation": "Comfort with learning new digital tools quickly is a valuable, transferable skill."
+    },
+    {
+      "id": "ge8",
+      "question": "A spreadsheet file won't open and you're not sure why. What's a reasonable first troubleshooting step?",
+      "competency": "Digital Literacy",
+      "options": [
+        "Assume the computer is broken and give up",
+        "Try reopening it, checking the file format, or opening it in another app",
+        "Delete the file immediately",
+        "Ignore the task entirely"
+      ],
+      "correct_answer": "Try reopening it, checking the file format, or opening it in another app",
+      "explanation": "Basic troubleshooting (retry, check format, try alternatives) is a core digital-literacy skill."
+    }
+  ]
+}

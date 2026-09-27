@@ -1,0 +1,44 @@
+{
+  "tracks": [
+    {
+      "id": "data_analytics",
+      "label": "Data & Analytics",
+      "description": "Working with data to find patterns and support decisions - e.g. Data Analyst, BI Analyst."
+    },
+    {
+      "id": "business_analysis",
+      "label": "Business Analysis",
+      "description": "Bridging business needs and solutions - e.g. Business Analyst, Product Analyst."
+    },
+    {
+      "id": "marketing",
+      "label": "Marketing",
+      "description": "Understanding customers and communicating value - e.g. Marketing Analyst, Brand Executive."
+    },
+    {
+      "id": "finance",
+      "label": "Finance",
+      "description": "Working with numbers, budgets and financial decisions - e.g. Finance Analyst, Accounts Executive."
+    },
+    {
+      "id": "hr",
+      "label": "HR",
+      "description": "Working with people, recruitment and workplace culture - e.g. HR Executive, Talent Associate."
+    },
+    {
+      "id": "technology",
+      "label": "Technology / Software",
+      "description": "Building and reasoning about software - e.g. Software Engineer, QA Analyst."
+    },
+    {
+      "id": "supply_chain",
+      "label": "Supply Chain / Operations",
+      "description": "Planning how goods and services move efficiently - e.g. Operations Analyst, Logistics Coordinator."
+    },
+    {
+      "id": "general",
+      "label": "Other / General",
+      "description": "A transferable-skills assessment for any career path not listed above."
+    }
+  ]
+}

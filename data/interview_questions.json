@@ -1,0 +1,146 @@
+{
+  "data_analytics": {
+    "q1_intro": {
+      "question": "Tell me about yourself and why you're interested in a career in data & analytics.",
+      "keywords": ["data", "analysis", "analytics", "excel", "sql", "python", "power bi", "insights", "numbers", "curious", "patterns"]
+    },
+    "q2_experience": {
+      "question": "Tell me about a project, course, or activity where you worked with data or numbers to reach a conclusion.",
+      "keywords": ["data", "dataset", "analysis", "excel", "sql", "chart", "dashboard", "report", "spreadsheet", "survey", "findings"]
+    },
+    "q3_role": {
+      "question": "A manager hands you a spreadsheet and says 'find out why numbers look off' with no other context. What's the first thing you do?",
+      "keywords": ["clean", "check", "source", "verify", "duplicate", "missing", "compare", "pivot", "filter", "question", "clarify", "context"]
+    },
+    "q5_situational": {
+      "question": "You spent two days on an analysis, and your manager disagrees with your conclusion in front of the team. How do you respond in the moment?",
+      "keywords": ["calm", "listen", "explain", "data", "evidence", "assumption", "clarify", "respect", "professional", "follow up"]
+    }
+  },
+  "business_analysis": {
+    "q1_intro": {
+      "question": "Tell me about yourself and why you're interested in a career in business analysis.",
+      "keywords": ["business", "process", "problem", "stakeholder", "solution", "requirements", "efficiency", "analysis", "improve"]
+    },
+    "q2_experience": {
+      "question": "Tell me about a time you helped solve a problem for a team, club, or organization by understanding what people actually needed.",
+      "keywords": ["problem", "stakeholder", "requirement", "interview", "process", "solution", "team", "understand", "needs"]
+    },
+    "q3_role": {
+      "question": "Two departments give you conflicting requirements for the same project. How do you handle it?",
+      "keywords": ["clarify", "priority", "stakeholder", "meeting", "document", "compromise", "escalate", "align", "listen", "trade-off"]
+    },
+    "q5_situational": {
+      "question": "A client asks for a feature that isn't realistic within the current timeline or budget. What do you do?",
+      "keywords": ["explain", "trade-off", "alternative", "realistic", "honest", "options", "timeline", "budget", "communicate", "manage expectations"]
+    }
+  },
+  "marketing": {
+    "q1_intro": {
+      "question": "Tell me about yourself and why you're interested in a career in marketing.",
+      "keywords": ["marketing", "brand", "audience", "campaign", "creative", "customer", "content", "communication", "social media"]
+    },
+    "q2_experience": {
+      "question": "Tell me about a time you promoted something (an event, a page, a product, a club) and had to reach an audience.",
+      "keywords": ["campaign", "audience", "promote", "content", "social media", "engagement", "post", "reach", "brand", "event"]
+    },
+    "q3_role": {
+      "question": "A social media post you planned gets very little engagement. How do you figure out what went wrong?",
+      "keywords": ["metrics", "engagement", "audience", "timing", "content", "compare", "test", "feedback", "analyze", "reach"]
+    },
+    "q5_situational": {
+      "question": "A client wants a campaign idea that doesn't fit the target audience at all. How do you respond?",
+      "keywords": ["explain", "audience", "data", "alternative", "respectful", "evidence", "tactful", "options", "research"]
+    }
+  },
+  "finance": {
+    "q1_intro": {
+      "question": "Tell me about yourself and why you're interested in a career in finance.",
+      "keywords": ["finance", "numbers", "budget", "accuracy", "accounting", "analysis", "money", "reports", "detail"]
+    },
+    "q2_experience": {
+      "question": "Tell me about a time you managed a budget, tracked expenses, or worked with financial numbers (for yourself, a club, or a project).",
+      "keywords": ["budget", "expense", "track", "spreadsheet", "accurate", "reconcile", "report", "cost", "plan"]
+    },
+    "q3_role": {
+      "question": "A spreadsheet total doesn't match the source system the day before a report is due. What do you do first?",
+      "keywords": ["check", "verify", "source", "reconcile", "trace", "double-check", "formula", "compare", "flag", "deadline"]
+    },
+    "q5_situational": {
+      "question": "A manager asks you to round a number in a way that feels a little misleading. How do you handle it?",
+      "keywords": ["honest", "ethical", "clarify", "explain", "policy", "escalate", "integrity", "professional", "raise concern"]
+    }
+  },
+  "hr": {
+    "q1_intro": {
+      "question": "Tell me about yourself and why you're interested in a career in HR.",
+      "keywords": ["people", "hr", "human resources", "recruitment", "communication", "culture", "employee", "talent", "support"]
+    },
+    "q2_experience": {
+      "question": "Tell me about a time you helped coordinate people, resolve a conflict, or support someone in a team or club setting.",
+      "keywords": ["coordinate", "conflict", "team", "support", "communication", "mediate", "schedule", "people", "listen"]
+    },
+    "q3_role": {
+      "question": "An employee comes to you with a complaint about a colleague. What's your first step?",
+      "keywords": ["listen", "confidential", "document", "policy", "neutral", "escalate", "calm", "fair", "discretion"]
+    },
+    "q5_situational": {
+      "question": "Two hiring managers both want the same shortlisted candidate. How do you handle the situation?",
+      "keywords": ["fair", "process", "communicate", "criteria", "mediate", "transparent", "policy", "decision", "both"]
+    }
+  },
+  "technology": {
+    "q1_intro": {
+      "question": "Tell me about yourself and why you're interested in a career in technology or software.",
+      "keywords": ["code", "software", "programming", "build", "technology", "debug", "developer", "learn", "problem solving"]
+    },
+    "q2_experience": {
+      "question": "Tell me about a project or assignment where you built or fixed something technical.",
+      "keywords": ["code", "project", "bug", "debug", "build", "github", "app", "website", "program", "feature"]
+    },
+    "q3_role": {
+      "question": "A bug only happens sometimes and you can't reliably reproduce it. What's your approach?",
+      "keywords": ["reproduce", "log", "isolate", "test", "narrow down", "conditions", "document", "debug", "pattern"]
+    },
+    "q5_situational": {
+      "question": "A senior developer disagrees with the approach you proposed. How do you handle the disagreement?",
+      "keywords": ["listen", "explain", "reasoning", "trade-off", "open", "compromise", "respectful", "evidence", "learn"]
+    }
+  },
+  "supply_chain": {
+    "q1_intro": {
+      "question": "Tell me about yourself and why you're interested in a career in supply chain or operations.",
+      "keywords": ["logistics", "operations", "supply chain", "coordinate", "planning", "efficiency", "process", "inventory"]
+    },
+    "q2_experience": {
+      "question": "Tell me about a time you had to coordinate resources, schedules, or logistics for an event or project.",
+      "keywords": ["coordinate", "schedule", "plan", "logistics", "resources", "timeline", "vendor", "delivery", "event"]
+    },
+    "q3_role": {
+      "question": "A key supplier tells you about a delay one day before a shipment was due. What do you do?",
+      "keywords": ["communicate", "escalate", "alternative", "plan", "notify", "priority", "contingency", "assess impact"]
+    },
+    "q5_situational": {
+      "question": "A customer wants their order expedited, but that would disrupt the planned schedule for everyone else. What do you do?",
+      "keywords": ["balance", "priority", "communicate", "alternative", "assess", "impact", "fair", "trade-off", "escalate"]
+    }
+  },
+  "general": {
+    "q1_intro": {
+      "question": "Tell me about yourself and what kind of career path you're aiming for.",
+      "keywords": ["skills", "interested", "learn", "goal", "career", "strengths", "team", "growth"]
+    },
+    "q2_experience": {
+      "question": "Tell me about a challenge you took on outside your comfort zone, in a class, club, or job.",
+      "keywords": ["challenge", "learn", "responsibility", "outcome", "grow", "initiative", "team", "adapt"]
+    },
+    "q3_role": {
+      "question": "You're assigned a task you've never done before, with a tight deadline and little guidance. What do you do?",
+      "keywords": ["research", "ask", "prioritize", "plan", "clarify", "break down", "learn", "manage time"]
+    },
+    "q5_situational": {
+      "question": "A teammate on a shared project isn't doing their part, and the deadline is close. How do you handle it?",
+      "keywords": ["communicate", "talk", "honest", "escalate", "support", "fair", "respectful", "plan", "deadline"]
+    }
+  }
+}

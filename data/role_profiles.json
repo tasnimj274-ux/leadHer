@@ -1,0 +1,239 @@
+{
+  "data_analytics": {
+    "role_title": "Entry-Level Data Analyst",
+    "responsibilities": [
+      "Collect data from spreadsheets, databases or surveys and clean it for analysis",
+      "Build reports and dashboards that summarize trends for non-technical stakeholders",
+      "Use tools such as Excel, SQL and Power BI/Tableau to explore and visualize data",
+      "Spot patterns or anomalies and flag them to a manager or client",
+      "Support decisions by turning a business question into a data question"
+    ],
+    "core_competencies": [
+      "Attention to detail", "SQL / spreadsheet skills", "Data visualization",
+      "Clear written and verbal communication of findings", "Basic statistics"
+    ],
+    "interview_themes": [
+      "How you approach a messy or incomplete dataset",
+      "Turning a stakeholder's vague question into something measurable",
+      "Explaining a technical result to a non-technical audience",
+      "Prioritizing which numbers actually matter"
+    ],
+    "example_situations": [
+      "A manager asks 'why did sales drop last month?' with no further detail",
+      "Two reports show different totals for the same metric",
+      "A dashboard needs to be ready before a deadline but the source data arrived late"
+    ],
+    "source_name": "U.S. Bureau of Labor Statistics, Occupational Outlook Handbook — Data Scientists",
+    "source_url": "https://www.bls.gov/ooh/math/data-scientists.htm",
+    "source_year": 2024,
+    "source_note": "Bangladesh-specific entry-level data analyst postings vary by employer; this profile summarizes the closest tracked occupation and general industry practice."
+  },
+  "business_analysis": {
+    "role_title": "Entry-Level Business / Management Analyst",
+    "responsibilities": [
+      "Gather and organize information about a business problem or process",
+      "Interview stakeholders to understand requirements and pain points",
+      "Document current processes and propose improvements",
+      "Help build recommendations that balance cost, time and feasibility",
+      "Track whether a change actually improved the metric it targeted"
+    ],
+    "core_competencies": [
+      "Structured problem solving", "Stakeholder interviewing",
+      "Process documentation", "Written communication", "Basic data interpretation"
+    ],
+    "interview_themes": [
+      "Breaking a vague business problem into smaller questions",
+      "Handling conflicting requirements from two stakeholders",
+      "Making a recommendation with incomplete information",
+      "Explaining a trade-off in plain language"
+    ],
+    "example_situations": [
+      "Two departments disagree about what 'done' means for a project",
+      "A client asks for a solution that is not technically realistic in the timeline",
+      "A process change looked good on paper but adoption is low"
+    ],
+    "source_name": "U.S. Bureau of Labor Statistics, Occupational Outlook Handbook — Management Analysts",
+    "source_url": "https://www.bls.gov/ooh/business-and-financial/management-analysts.htm",
+    "source_year": 2024,
+    "source_note": "Summarized from the general management/business analyst occupation profile; entry-level scope is typically narrower than the full consultant role described there."
+  },
+  "marketing": {
+    "role_title": "Entry-Level Marketing / Market Research Analyst",
+    "responsibilities": [
+      "Research consumer preferences, competitors and market trends",
+      "Help plan and track campaigns across digital channels",
+      "Analyze basic campaign metrics (reach, engagement, conversion)",
+      "Support content creation and brand messaging",
+      "Summarize research findings for the marketing team"
+    ],
+    "core_competencies": [
+      "Communication and storytelling", "Basic data interpretation",
+      "Customer/audience research", "Creativity within brand guidelines",
+      "Familiarity with digital channels"
+    ],
+    "interview_themes": [
+      "Understanding a target audience with limited research budget",
+      "Explaining why a campaign underperformed using the numbers available",
+      "Balancing creative ideas with brand or budget constraints",
+      "Responding to negative feedback on a campaign"
+    ],
+    "example_situations": [
+      "A social media post underperforms and a manager wants to know why",
+      "A client asks for a campaign that doesn't fit the target audience",
+      "Limited budget means only one of two proposed channels can be tested"
+    ],
+    "source_name": "U.S. Bureau of Labor Statistics, Occupational Outlook Handbook — Market Research Analysts",
+    "source_url": "https://www.bls.gov/ooh/business-and-financial/market-research-analysts.htm",
+    "source_year": 2024,
+    "source_note": "Entry-level marketing roles in Bangladesh often blend research and campaign-execution duties; this profile summarizes the closest tracked occupation."
+  },
+  "finance": {
+    "role_title": "Entry-Level Finance / Accounts Analyst",
+    "responsibilities": [
+      "Prepare and check financial data such as budgets, invoices or statements",
+      "Support forecasting and variance analysis (planned vs. actual spend)",
+      "Reconcile figures across reports and flag discrepancies",
+      "Assist with basic financial modeling in spreadsheets",
+      "Summarize financial performance for non-finance stakeholders"
+    ],
+    "core_competencies": [
+      "Numerical accuracy", "Spreadsheet / Excel modeling",
+      "Attention to detail", "Ethical judgment and confidentiality",
+      "Clear communication of financial results"
+    ],
+    "interview_themes": [
+      "Explaining a budget variance to someone without a finance background",
+      "Handling a discrepancy found in the numbers close to a deadline",
+      "Balancing accuracy with a tight reporting deadline",
+      "Responding to pressure to round numbers favorably"
+    ],
+    "example_situations": [
+      "A spreadsheet total doesn't match the source system the day before a report is due",
+      "A manager asks for a number to be adjusted in a way that feels questionable",
+      "Two different currency or unit conventions were mixed in the same report"
+    ],
+    "source_name": "U.S. Bureau of Labor Statistics, Occupational Outlook Handbook — Financial Analysts",
+    "source_url": "https://www.bls.gov/ooh/business-and-financial/financial-analysts.htm",
+    "source_year": 2024,
+    "source_note": "Summarized from the general financial analyst occupation profile; entry-level Bangladeshi roles are often titled 'Accounts/Finance Executive.'"
+  },
+  "hr": {
+    "role_title": "Entry-Level HR / Talent Associate",
+    "responsibilities": [
+      "Support recruitment: screening applications, scheduling interviews",
+      "Help onboard new employees and maintain HR records",
+      "Assist with employee engagement activities and internal communication",
+      "Track basic HR metrics such as time-to-hire or attendance",
+      "Handle sensitive employee information with discretion"
+    ],
+    "core_competencies": [
+      "Interpersonal communication", "Organization and follow-through",
+      "Confidentiality and judgment", "Basic data tracking",
+      "Conflict de-escalation"
+    ],
+    "interview_themes": [
+      "Handling a sensitive employee concern appropriately",
+      "Balancing empathy with company policy",
+      "Coordinating multiple interview schedules under time pressure",
+      "Explaining a policy decision to someone who disagrees with it"
+    ],
+    "example_situations": [
+      "A candidate misses their interview slot and the panel is waiting",
+      "An employee raises a complaint about a colleague",
+      "Two hiring managers want the same shortlisted candidate"
+    ],
+    "source_name": "U.S. Bureau of Labor Statistics, Occupational Outlook Handbook — Human Resources Specialists",
+    "source_url": "https://www.bls.gov/ooh/business-and-financial/human-resources-specialists.htm",
+    "source_year": 2024,
+    "source_note": "Summarized from the general HR specialist occupation profile; entry-level Bangladeshi roles are often titled 'HR/Talent Associate.'"
+  },
+  "technology": {
+    "role_title": "Entry-Level Software / QA Analyst",
+    "responsibilities": [
+      "Write, test and debug small pieces of code under guidance",
+      "Follow a team's coding standards and version-control workflow",
+      "Reproduce and document bugs clearly for other developers",
+      "Participate in code review and act on feedback",
+      "Learn a codebase and ask clarifying questions before big changes"
+    ],
+    "core_competencies": [
+      "Logical/analytical problem solving", "Willingness to learn quickly",
+      "Clear written bug reports and documentation", "Basic version control",
+      "Receiving and giving feedback constructively"
+    ],
+    "interview_themes": [
+      "Debugging something with incomplete information",
+      "Explaining a technical issue to a non-technical teammate",
+      "Handling disagreement over the right technical approach",
+      "Managing scope when a deadline is unrealistic"
+    ],
+    "example_situations": [
+      "A bug only appears intermittently and can't easily be reproduced",
+      "A senior developer disagrees with your proposed approach",
+      "A feature request changes midway through implementation"
+    ],
+    "source_name": "U.S. Bureau of Labor Statistics, Occupational Outlook Handbook — Software Developers, Quality Assurance Analysts, and Testers",
+    "source_url": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
+    "source_year": 2024,
+    "source_note": "Summarized from the general software developer/QA occupation profile; entry-level scope is narrower than the full role described there."
+  },
+  "supply_chain": {
+    "role_title": "Entry-Level Operations / Logistics Coordinator",
+    "responsibilities": [
+      "Track shipments, inventory levels and delivery schedules",
+      "Coordinate with suppliers, warehouses and transport partners",
+      "Spot and escalate delays or shortages before they affect customers",
+      "Support basic demand planning using historical order data",
+      "Maintain accurate records for audits and reporting"
+    ],
+    "core_competencies": [
+      "Organization and follow-through", "Problem solving under time pressure",
+      "Cross-team coordination", "Basic data tracking",
+      "Clear escalation and communication"
+    ],
+    "interview_themes": [
+      "Responding to a shipment delay that affects a delivery deadline",
+      "Coordinating between a supplier and an internal team with conflicting priorities",
+      "Deciding what to do with incomplete tracking information",
+      "Balancing cost savings against delivery reliability"
+    ],
+    "example_situations": [
+      "A key supplier informs you of a delay one day before a shipment was due",
+      "Inventory counts don't match what the system shows",
+      "A customer needs an order expedited but that disrupts the planned schedule"
+    ],
+    "source_name": "U.S. Bureau of Labor Statistics, Occupational Outlook Handbook — Logisticians",
+    "source_url": "https://www.bls.gov/ooh/business-and-financial/logisticians.htm",
+    "source_year": 2024,
+    "source_note": "Summarized from the general logistician occupation profile; Bangladesh's large RMG export sector makes this a common entry point locally."
+  },
+  "general": {
+    "role_title": "Entry-Level Generalist / Transferable-Skills Role",
+    "responsibilities": [
+      "Support a team with research, coordination, and organized follow-through",
+      "Communicate clearly with teammates and external contacts",
+      "Take initiative on small projects with limited supervision",
+      "Learn new tools and processes quickly",
+      "Contribute ideas while staying open to feedback"
+    ],
+    "core_competencies": [
+      "Communication", "Adaptability", "Problem solving",
+      "Time management", "Teamwork"
+    ],
+    "interview_themes": [
+      "Handling an unfamiliar task with minimal instructions",
+      "Managing competing priorities under a deadline",
+      "Working through a disagreement with a teammate",
+      "Learning something new quickly on the job"
+    ],
+    "example_situations": [
+      "You're assigned a task outside your usual area with a tight deadline",
+      "A teammate isn't pulling their weight on a shared project",
+      "Priorities shift midway through a task and you must adjust"
+    ],
+    "source_name": "MVP role profile (not tied to a single published occupation)",
+    "source_url": "",
+    "source_year": null,
+    "source_note": "This track intentionally covers transferable skills for students who have not yet chosen a specific career path. An exact public source could not be matched to a single occupation, so this profile is clearly marked as an MVP summary rather than attributed to an external source."
+  }
+}

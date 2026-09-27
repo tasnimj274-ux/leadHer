@@ -1,0 +1,522 @@
+{
+  "data_analytics": {
+    "title": "The Dropping Repeat-Purchase Rate",
+    "context": "You are a Data Analyst at Nexa Mart, an online grocery delivery company operating in three cities. The leadership team is concerned about a metric that has been sliding for two quarters.",
+    "problem": "Overall monthly orders are flat, but the repeat-purchase rate (customers who order again within 30 days) has dropped from 48% to 36% over the last two quarters. Marketing wants to know why, and what to do about it.",
+    "data_points": [
+      "New customer signups are up 20% over the same period.",
+      "Average delivery time increased from 35 to 52 minutes in City B only.",
+      "Customer support tickets about 'late delivery' tripled in City B.",
+      "Cities A and C show no meaningful change in repeat-purchase rate."
+    ],
+    "questions": [
+      {
+        "id": "da_c1",
+        "question": "Given the data, which metric is most useful to investigate first?",
+        "competency": "Problem Understanding",
+        "options": [
+          "Total signups",
+          "Repeat-purchase rate broken down by city",
+          "Number of products listed",
+          "App store rating"
+        ],
+        "correct_answer": "Repeat-purchase rate broken down by city",
+        "explanation": "Since the overall metric hides city-level differences, breaking it down by city is what actually reveals where the problem lives."
+      },
+      {
+        "id": "da_c2",
+        "question": "What does the data most strongly suggest is driving the drop?",
+        "competency": "Data Interpretation",
+        "options": [
+          "Rising delivery times and complaints in City B specifically",
+          "A general decline in product quality everywhere",
+          "Too many new customers overwhelming the app",
+          "A citywide drop in demand for groceries"
+        ],
+        "correct_answer": "Rising delivery times and complaints in City B specifically",
+        "explanation": "The delivery-time increase and complaint spike are isolated to City B, and the repeat-purchase drop pattern lines up with it - the other cities are unaffected."
+      },
+      {
+        "id": "da_c3",
+        "question": "Which recommendation is best supported by this evidence?",
+        "competency": "Business Reasoning",
+        "options": [
+          "Cut marketing spend in all three cities",
+          "Investigate and fix the delivery bottleneck in City B before broader changes",
+          "Launch a new loyalty program nationwide immediately",
+          "Reduce the number of products offered"
+        ],
+        "correct_answer": "Investigate and fix the delivery bottleneck in City B before broader changes",
+        "explanation": "A city-specific operational problem calls for a targeted operational fix rather than a broad, unrelated change."
+      },
+      {
+        "id": "da_c4",
+        "question": "Which single number would best track whether your fix is working over the next month?",
+        "competency": "Metric Selection",
+        "options": [
+          "Total app downloads",
+          "City B's average delivery time and repeat-purchase rate",
+          "Number of support staff hired",
+          "Overall company revenue"
+        ],
+        "correct_answer": "City B's average delivery time and repeat-purchase rate",
+        "explanation": "The metric you track should map directly to the specific problem you diagnosed, not a broad company-wide number."
+      }
+    ]
+  },
+  "business_analysis": {
+    "title": "The Slow Expense-Approval Process",
+    "context": "You are a Business Analyst at Fintrack Solutions, a mid-sized company. Employees have been complaining that expense reimbursements take too long.",
+    "problem": "The current expense approval process takes an average of 12 business days, and employee satisfaction with the finance department has dropped. Leadership has asked you to analyze and recommend improvements.",
+    "data_points": [
+      "Every expense report requires sign-off from 3 separate managers, regardless of amount.",
+      "80% of expense reports are under $50.",
+      "The finance team manually re-enters data from PDF forms into the accounting system.",
+      "Reports under $50 take just as long as reports over $1,000."
+    ],
+    "questions": [
+      {
+        "id": "ba_c1",
+        "question": "What is the core business problem here?",
+        "competency": "Problem Understanding",
+        "options": [
+          "Employees are submitting too many expenses",
+          "The approval process isn't scaled to the size/risk of each request",
+          "The company doesn't have enough managers",
+          "Employees don't understand the expense policy"
+        ],
+        "correct_answer": "The approval process isn't scaled to the size/risk of each request",
+        "explanation": "Small, low-risk expenses are going through the same heavy process as large ones - that mismatch is the real issue."
+      },
+      {
+        "id": "ba_c2",
+        "question": "Which process change would likely have the biggest impact, based on the data?",
+        "competency": "Process Analysis",
+        "options": [
+          "Add a 4th manager to the approval chain",
+          "Create a fast-track, single-approval path for expenses under $50",
+          "Require all expenses to be submitted on paper",
+          "Remove all approval steps for every expense"
+        ],
+        "correct_answer": "Create a fast-track, single-approval path for expenses under $50",
+        "explanation": "Since 80% of reports are small and take just as long as large ones, a lighter-weight path for them addresses the majority of the delay."
+      },
+      {
+        "id": "ba_c3",
+        "question": "Which stakeholder group's input is most important before finalizing this change?",
+        "competency": "Stakeholder Communication",
+        "options": [
+          "Only the finance team",
+          "Finance, managers who approve expenses, and employees who submit them",
+          "Only the CEO",
+          "No one, just implement it"
+        ],
+        "correct_answer": "Finance, managers who approve expenses, and employees who submit them",
+        "explanation": "A process change affects everyone who touches it - gathering input from all affected groups reduces the risk of a flawed rollout."
+      },
+      {
+        "id": "ba_c4",
+        "question": "Given limited time this quarter, what should be prioritized first?",
+        "competency": "Prioritization",
+        "options": [
+          "Automating PDF data entry, since it's a smaller technical fix",
+          "The fast-track approval change, since it affects the most reports with the least risk",
+          "Redesigning the whole finance department",
+          "Nothing, wait until next year"
+        ],
+        "correct_answer": "The fast-track approval change, since it affects the most reports with the least risk",
+        "explanation": "Prioritization should weigh impact against effort and risk - the fast-track change touches the most reports for a low-risk, high-value fix."
+      }
+    ]
+  },
+  "marketing": {
+    "title": "The Underperforming Product Launch Campaign",
+    "context": "You are a Marketing Analyst at Bloom & Co, a skincare brand. The company just launched a new product with a multi-channel campaign.",
+    "problem": "The campaign generated strong impressions and website traffic, but the conversion rate (visitors who purchased) is only 0.8%, well below the brand's usual 2.5% average.",
+    "data_points": [
+      "Instagram ads drove 60% of traffic but converted at just 0.3%.",
+      "Email to existing customers drove 15% of traffic but converted at 4.1%.",
+      "The product landing page loads in 6 seconds on mobile (vs 2s on desktop).",
+      "70% of the traffic is from mobile devices."
+    ],
+    "questions": [
+      {
+        "id": "mk_c1",
+        "question": "What is the core problem suggested by this data?",
+        "competency": "Problem Understanding",
+        "options": [
+          "The product itself is unwanted",
+          "A likely mobile experience issue is suppressing conversions from the biggest traffic source",
+          "Email marketing doesn't work",
+          "The brand has no loyal customers"
+        ],
+        "correct_answer": "A likely mobile experience issue is suppressing conversions from the biggest traffic source",
+        "explanation": "Most traffic is mobile, mobile load time is far slower, and the channel bringing the most mobile traffic (Instagram) converts worst - these point to a mobile experience problem."
+      },
+      {
+        "id": "mk_c2",
+        "question": "Which insight about the audience is most useful here?",
+        "competency": "Customer Insight",
+        "options": [
+          "Existing customers (email) convert far better than new cold traffic (Instagram)",
+          "Instagram users never buy anything, ever",
+          "All channels perform identically",
+          "Desktop users are the majority"
+        ],
+        "correct_answer": "Existing customers (email) convert far better than new cold traffic (Instagram)",
+        "explanation": "The email segment's much higher conversion shows warmer, known customers respond very differently than cold social traffic - useful for planning next steps."
+      },
+      {
+        "id": "mk_c3",
+        "question": "What should be fixed first to improve the campaign fastest?",
+        "competency": "Decision Making",
+        "options": [
+          "Increase the Instagram budget further with no other changes",
+          "Fix the mobile landing page speed, since most traffic is mobile and it's clearly underperforming",
+          "Cancel the email campaign since it has less traffic",
+          "Pause the entire campaign indefinitely"
+        ],
+        "correct_answer": "Fix the mobile landing page speed, since most traffic is mobile and it's clearly underperforming",
+        "explanation": "Fixing the highest-impact bottleneck (mobile speed, affecting most of the traffic) is likely to move conversion the most, the fastest."
+      },
+      {
+        "id": "mk_c4",
+        "question": "Which audience segment might be worth a follow-up campaign, based on this data?",
+        "competency": "Segmentation",
+        "options": [
+          "New cold Instagram traffic with no changes",
+          "Existing customers, since they already convert well via email",
+          "People who have never heard of the brand",
+          "Random audiences with no targeting"
+        ],
+        "correct_answer": "Existing customers, since they already convert well via email",
+        "explanation": "Segments that already convert well are efficient to invest further in, while the weaker segment needs a fix before scaling spend."
+      }
+    ]
+  },
+  "finance": {
+    "title": "The Profitable Company Running Out of Cash",
+    "context": "You are a Finance Analyst at Kestrel Manufacturing. The company reported its best-ever profit last quarter, but the CFO is worried.",
+    "problem": "Kestrel's income statement shows a healthy $200,000 profit last quarter, but the company's cash balance dropped by $80,000 in the same period, and it may struggle to pay suppliers next month.",
+    "data_points": [
+      "Accounts receivable (money owed by customers) grew by $180,000 this quarter.",
+      "The company extended payment terms for its largest client from 30 to 90 days.",
+      "Accounts payable (money owed to suppliers) stayed flat.",
+      "No large equipment purchases were made this quarter."
+    ],
+    "questions": [
+      {
+        "id": "fi_c1",
+        "question": "What is the core issue here?",
+        "competency": "Problem Understanding",
+        "options": [
+          "The company isn't actually profitable",
+          "A cash flow timing gap between reported profit and cash collected",
+          "The company spent too much on equipment",
+          "Suppliers are charging too much"
+        ],
+        "correct_answer": "A cash flow timing gap between reported profit and cash collected",
+        "explanation": "Profit is an accounting figure that doesn't always match cash in hand - here, sales are booked as profit before the cash is actually collected."
+      },
+      {
+        "id": "fi_c2",
+        "question": "Which piece of data best explains the cash shortfall?",
+        "competency": "Financial Reasoning",
+        "options": [
+          "The flat accounts payable",
+          "The large increase in accounts receivable combined with extended client payment terms",
+          "The lack of equipment purchases",
+          "The overall profit figure"
+        ],
+        "correct_answer": "The large increase in accounts receivable combined with extended client payment terms",
+        "explanation": "Extending payment terms means revenue is earned on paper but the cash hasn't arrived yet - exactly what the receivables increase shows."
+      },
+      {
+        "id": "fi_c3",
+        "question": "If receivables of $180,000 are collected over 90 days evenly, roughly how much cash should come in per month?",
+        "competency": "Numerical Reasoning",
+        "options": [
+          "$60,000",
+          "$180,000",
+          "$18,000",
+          "$9,000"
+        ],
+        "correct_answer": "$60,000",
+        "explanation": "180,000 spread evenly over 3 months (90 days) is 180,000 / 3 = 60,000 per month."
+      },
+      {
+        "id": "fi_c4",
+        "question": "What is the most sound recommendation given the risk of missing supplier payments?",
+        "competency": "Risk Awareness",
+        "options": [
+          "Ignore it since profit is high",
+          "Arrange short-term financing or renegotiate terms while collections catch up",
+          "Immediately stop all sales to that client",
+          "Spend the profit on new equipment right away"
+        ],
+        "correct_answer": "Arrange short-term financing or renegotiate terms while collections catch up",
+        "explanation": "Bridging a temporary cash gap with short-term financing or renegotiated terms protects supplier relationships without overreacting to a timing issue."
+      }
+    ]
+  },
+  "hr": {
+    "title": "The Rising Turnover on the Support Team",
+    "context": "You are an HR Executive at Clearwave Telecom. The Customer Support department has seen unusually high resignations recently.",
+    "problem": "5 of 20 support agents resigned in the last 2 months (a 25% turnover rate in that period), compared to the company's usual 4% monthly average. Leadership wants HR's assessment before approving a hiring freeze exception.",
+    "data_points": [
+      "Exit interviews mention 'no clear growth path' and 'inconsistent shift schedules' most often.",
+      "Support agents' average tenure before resigning was 14 months.",
+      "The department manager changed 3 months ago.",
+      "Pay was not commonly mentioned as a reason for leaving."
+    ],
+    "questions": [
+      {
+        "id": "hr_c1",
+        "question": "What does the exit interview data most strongly point to?",
+        "competency": "Problem Understanding",
+        "options": [
+          "Pay is the main driver of turnover",
+          "Career growth and scheduling concerns, not pay, are driving the exits",
+          "Agents are leaving for random reasons with no pattern",
+          "The company should stop hiring entirely"
+        ],
+        "correct_answer": "Career growth and scheduling concerns, not pay, are driving the exits",
+        "explanation": "Since pay is rarely mentioned but growth and scheduling are, the data points to non-pay factors as the main driver."
+      },
+      {
+        "id": "hr_c2",
+        "question": "Which factor is most useful to investigate given the timing of events?",
+        "competency": "HR Judgment",
+        "options": [
+          "The company's stock price",
+          "Whether the recent manager change affected scheduling or growth conversations",
+          "The office's location",
+          "The company logo"
+        ],
+        "correct_answer": "Whether the recent manager change affected scheduling or growth conversations",
+        "explanation": "The manager change lines up closely with the turnover spike, making it a strong candidate to investigate as a contributing factor."
+      },
+      {
+        "id": "hr_c3",
+        "question": "What is the best first HR action?",
+        "competency": "Decision Making",
+        "options": [
+          "Immediately replace the new manager with no investigation",
+          "Talk with current team members and the manager to understand what changed",
+          "Offer a pay raise, since that's the usual fix",
+          "Do nothing and wait for it to pass"
+        ],
+        "correct_answer": "Talk with current team members and the manager to understand what changed",
+        "explanation": "Before acting on assumptions, gathering direct input from the team clarifies whether the manager change, scheduling, or growth paths need addressing."
+      },
+      {
+        "id": "hr_c4",
+        "question": "How should HR communicate next steps to the remaining support team?",
+        "competency": "Communication",
+        "options": [
+          "Say nothing and hope they don't notice",
+          "Acknowledge the concerns raised and share what's being done about them",
+          "Blame the agents who left",
+          "Promise unrealistic changes to calm people down"
+        ],
+        "correct_answer": "Acknowledge the concerns raised and share what's being done about them",
+        "explanation": "Transparent, honest communication about real concerns helps rebuild trust with the remaining team."
+      }
+    ]
+  },
+  "technology": {
+    "title": "The Intermittent Checkout Bug",
+    "context": "You are a Software Engineer at ShopLinq, an e-commerce platform. Customers have reported that checkout sometimes fails.",
+    "problem": "About 3% of checkout attempts fail with a generic error, but only during certain hours. The team needs to prioritize how to investigate and fix it before the upcoming sale event.",
+    "data_points": [
+      "Failures cluster between 7-9 PM daily, the site's peak traffic hours.",
+      "The error logs show 'database connection timeout' as the most common message during failures.",
+      "The payment provider's status page shows no reported outages.",
+      "The database connection pool size was last changed 2 months ago, before failures started."
+    ],
+    "questions": [
+      {
+        "id": "te_c1",
+        "question": "What is the most likely root cause area, based on the evidence?",
+        "competency": "Debugging / Problem Solving",
+        "options": [
+          "The payment provider is down",
+          "The database connection pool is likely undersized for peak traffic",
+          "Customers are entering wrong card numbers",
+          "The website's color scheme"
+        ],
+        "correct_answer": "The database connection pool is likely undersized for peak traffic",
+        "explanation": "Timeouts clustering at peak hours, combined with the connection-pool change happening right before failures started, both point to the pool being the bottleneck."
+      },
+      {
+        "id": "te_c2",
+        "question": "Which piece of evidence most rules out the payment provider as the cause?",
+        "competency": "Logical Reasoning",
+        "options": [
+          "The time of day the failures occur",
+          "The payment provider's status page showing no outages",
+          "The error message text",
+          "The connection pool change date"
+        ],
+        "correct_answer": "The payment provider's status page showing no outages",
+        "explanation": "If the provider itself reports no issues, that evidence points away from it and toward something on ShopLinq's own infrastructure."
+      },
+      {
+        "id": "te_c3",
+        "question": "Given the upcoming sale event, what should be prioritized first?",
+        "competency": "Technical Prioritization",
+        "options": [
+          "Redesigning the checkout UI",
+          "Investigating and likely increasing the database connection pool size",
+          "Switching payment providers entirely",
+          "Ignoring it since it's only 3% of attempts"
+        ],
+        "correct_answer": "Investigating and likely increasing the database connection pool size",
+        "explanation": "With a traffic-heavy event approaching, fixing the most likely, highest-impact cause first reduces the risk of widespread failures under load."
+      },
+      {
+        "id": "te_c4",
+        "question": "What is the best way to confirm the fix worked before the sale event?",
+        "competency": "Decision Making",
+        "options": [
+          "Just assume it's fixed with no verification",
+          "Run a load test simulating peak traffic and monitor timeout rates",
+          "Wait for customers to complain again",
+          "Change something else unrelated instead"
+        ],
+        "correct_answer": "Run a load test simulating peak traffic and monitor timeout rates",
+        "explanation": "Simulating real peak conditions before the live event is the most reliable way to verify the fix holds under load."
+      }
+    ]
+  },
+  "supply_chain": {
+    "title": "The Warehouse Stockout Problem",
+    "context": "You are an Operations Analyst at Fresh Route, a regional grocery distributor. A key product keeps running out at stores before restock.",
+    "problem": "Store managers report the store-brand yogurt is out of stock 3-4 days before each weekly delivery, causing lost sales, while a nearby warehouse consistently has yogurt sitting unused until it nears its expiration date.",
+    "data_points": [
+      "Store demand for yogurt increased 30% over the last 2 months.",
+      "The reorder point for yogurt hasn't been updated in 6 months.",
+      "Delivery lead time from the warehouse is 2 days.",
+      "The warehouse holds about 3 weeks of yogurt supply at once."
+    ],
+    "questions": [
+      {
+        "id": "sc_c1",
+        "question": "What is the core problem here?",
+        "competency": "Problem Understanding",
+        "options": [
+          "The warehouse doesn't have enough yogurt overall",
+          "The reorder point hasn't kept up with rising store-level demand",
+          "Stores don't want to sell yogurt",
+          "Delivery trucks are unreliable"
+        ],
+        "correct_answer": "The reorder point hasn't kept up with rising store-level demand",
+        "explanation": "Demand rose 30% but the reorder point was never adjusted, so stores are triggering restocks too late relative to actual demand."
+      },
+      {
+        "id": "sc_c2",
+        "question": "Which recommendation best addresses the stockouts without creating excess warehouse stock?",
+        "competency": "Inventory Thinking",
+        "options": [
+          "Double the warehouse's total yogurt stock with no other changes",
+          "Raise the store reorder point to reflect the new demand level and 2-day lead time",
+          "Stop selling yogurt at all stores",
+          "Reduce delivery frequency further"
+        ],
+        "correct_answer": "Raise the store reorder point to reflect the new demand level and 2-day lead time",
+        "explanation": "Adjusting the reorder point to match current demand and lead time fixes the timing mismatch directly, rather than just adding more inventory everywhere."
+      },
+      {
+        "id": "sc_c3",
+        "question": "Why is the warehouse's unused, aging yogurt evidence of a distribution issue rather than a total-supply issue?",
+        "competency": "Operations Reasoning",
+        "options": [
+          "It isn't evidence of anything",
+          "It shows enough total supply exists, but it isn't reaching stores fast or often enough where it's needed",
+          "It proves the warehouse should close",
+          "It means demand is falling"
+        ],
+        "correct_answer": "It shows enough total supply exists, but it isn't reaching stores fast or often enough where it's needed",
+        "explanation": "Stock sitting unused at the warehouse while stores run out shows the problem is in how and when stock moves, not how much exists overall."
+      },
+      {
+        "id": "sc_c4",
+        "question": "What should be prioritized first to fix this?",
+        "competency": "Prioritization",
+        "options": [
+          "A full redesign of the entire supply chain network",
+          "Updating the reorder point for this product, since it's the direct, fast-to-implement fix",
+          "Firing the warehouse manager",
+          "Ignoring it since it's just one product"
+        ],
+        "correct_answer": "Updating the reorder point for this product, since it's the direct, fast-to-implement fix",
+        "explanation": "A targeted, low-effort fix that directly addresses the diagnosed cause should come before a larger, slower redesign."
+      }
+    ]
+  },
+  "general": {
+    "title": "The Missed Team Deadline",
+    "context": "You are a coordinator on a small project team at Horizon Co. The team just missed an internal deadline for the second time this quarter.",
+    "problem": "The team missed the deadline by 4 days. Leadership wants a short summary of what happened and a plan to prevent it from happening again.",
+    "data_points": [
+      "Two team members were assigned overlapping tasks without realizing it.",
+      "The team had no shared tracker showing who owned which task.",
+      "The final review step took 3 days longer than planned.",
+      "No one flagged the delay until 2 days before the deadline."
+    ],
+    "questions": [
+      {
+        "id": "ge_c1",
+        "question": "What is the core problem behind the missed deadline?",
+        "competency": "Problem Understanding",
+        "options": [
+          "The team doesn't work hard enough",
+          "A lack of clear task ownership and visibility into progress",
+          "The deadline was unrealistic from the start",
+          "The company has too many projects"
+        ],
+        "correct_answer": "A lack of clear task ownership and visibility into progress",
+        "explanation": "Overlapping tasks and no shared tracker both point to unclear ownership and low visibility as the real root cause, not effort or deadline length."
+      },
+      {
+        "id": "ge_c2",
+        "question": "What number best represents how early the delay could have been caught, based on this data?",
+        "competency": "Numerical / Business Reasoning",
+        "options": [
+          "4 days late, caught 2 days before deadline",
+          "4 days late, caught 4 days before deadline",
+          "No way to know",
+          "It was caught immediately"
+        ],
+        "correct_answer": "4 days late, caught 2 days before deadline",
+        "explanation": "The scenario states the delay wasn't flagged until 2 days before the deadline, even though the team ultimately missed it by 4 days."
+      },
+      {
+        "id": "ge_c3",
+        "question": "What is the best next step to prevent this from happening again?",
+        "competency": "Decision Making",
+        "options": [
+          "Do nothing differently and hope it improves",
+          "Introduce a shared tracker and regular check-ins so issues surface earlier",
+          "Assign all future tasks to one person only",
+          "Extend every future deadline by a month"
+        ],
+        "correct_answer": "Introduce a shared tracker and regular check-ins so issues surface earlier",
+        "explanation": "A shared tracker with regular check-ins directly addresses the visibility gap that let the delay go unnoticed for so long."
+      },
+      {
+        "id": "ge_c4",
+        "question": "How should this be communicated to leadership?",
+        "competency": "Communication",
+        "options": [
+          "Hide the real cause to avoid blame",
+          "Give a clear, honest summary of what happened and the concrete fix going forward",
+          "Blame individual teammates by name",
+          "Avoid giving any explanation at all"
+        ],
+        "correct_answer": "Give a clear, honest summary of what happened and the concrete fix going forward",
+        "explanation": "Clear, honest communication paired with a concrete plan builds trust, even when reporting a miss."
+      }
+    ]
+  }
+}
