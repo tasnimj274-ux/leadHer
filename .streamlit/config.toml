@@ -11,3 +11,6 @@ secondaryBackgroundColor = "#17152F"
 textColor = "#F7F3FF"
 
 font = "sans serif"
+
+# Keep the app chrome minimal for viewers; CSS above hides the remaining UI.
+toolbarMode = "minimal"

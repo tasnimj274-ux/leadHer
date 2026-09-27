@@ -272,6 +272,21 @@ button[data-testid="stBaseButton-primary"]:hover {
     .cq-bg::after { width: 95vw; height: 95vw; }
 }
 
+/* ---------- Streamlit app chrome ---------- */
+/* Hide Streamlit's viewer/developer chrome so LeadHer owns the viewport. */
+[data-testid="stHeader"] {
+    display: none !important;
+}
+
+[data-testid="stToolbar"],
+[data-testid="stStatusWidget"],
+[data-testid="stDecoration"],
+.stAppDeployButton,
+#MainMenu,
+footer {
+    display: none !important;
+}
+
 /* ---------- Motion ---------- */
 @keyframes cq-orbit-a {
     0% { transform: translate3d(0, 0, 0) scale(1); }
